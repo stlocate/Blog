@@ -1286,3 +1286,4 @@ C:\_CODE\Blog\StatiqWebApp.Blog\obj\Debug\net8.0\refint\StatiqWebApp.Blog.dll
 C:\_CODE\Blog\StatiqWebApp.Blog\obj\Debug\net8.0\StatiqWebApp.Blog.pdb
 C:\_CODE\Blog\StatiqWebApp.Blog\obj\Debug\net8.0\StatiqWebApp.Blog.genruntimeconfig.cache
 C:\_CODE\Blog\StatiqWebApp.Blog\obj\Debug\net8.0\ref\StatiqWebApp.Blog.dll
+C:\_CODE\Blog\StatiqWebApp.Blog\obj\Debug\net8.0\StatiqWebApp.Blog.sourcelink.json
