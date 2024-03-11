@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\_CODE\\Blog\\StatiqWebApp.Blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2F3614-02E9-47B0-8AB5-1AEE22EBF534}|StatiqWebApp.Blog.csproj|c:\\_code\\blog\\statiqwebapp.blog\\input\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{1B2F3614-02E9-47B0-8AB5-1AEE22EBF534}|StatiqWebApp.Blog.csproj|solutionrelative:input\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.md",
+              "DocumentMoniker": "C:\\_CODE\\Blog\\StatiqWebApp.Blog\\input\\index.md",
+              "RelativeDocumentMoniker": "input\\index.md",
+              "ToolTip": "C:\\_CODE\\Blog\\StatiqWebApp.Blog\\input\\index.md",
+              "RelativeToolTip": "input\\index.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-03-11T15:23:18.189Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
