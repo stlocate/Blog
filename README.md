@@ -17,7 +17,7 @@ I work as a Senior Consultant in the Industry Solution Delivery, where I help sh
 I love learning new things and sharing my knowledge with the community  😊
 
 # How can you contact me?
-If you have any questions, feedback, or suggestions for my blog, you can contact me via Linkedin (https://www.linkedin.com/in/locatellistefano) or by e-mail at `locatellist AT gmail DOT com`. 
+If you have any questions, feedback, or suggestions for my blog, you can contact me via [Linkedin](https://www.linkedin.com/in/locatellistefano) or by e-mail at `locatellist AT gmail DOT com`. 
 <br>I will try to reply as soon as possible, but please understand that this blog is just a hobby and I may not be able to respond immediately.<br>Thank you for your understanding and support!
 
 # Disclaimer
