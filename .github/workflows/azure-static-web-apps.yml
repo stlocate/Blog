@@ -20,8 +20,6 @@ jobs:
           submodules: true
           lfs: false
       - uses: actions/setup-dotnet@v1
-        with:
-             dotnet-version: 5.0.203
       - run: dotnet restore
       - run: dotnet build ./StatiqWebApp.csproj --configuration Release --no-restore
       - run: dotnet run --project ./StatiqWebApp.csproj --output output
