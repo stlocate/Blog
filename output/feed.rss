@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
-		<title>Stefano Locatelli Blog</title>
+		<title>Stefano Locatelli's Blog</title>
 		<link>/</link>
 		<description />
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Tue, 12 Mar 2024 15:25:52 GMT</pubDate>
-		<lastBuildDate>Tue, 12 Mar 2024 15:25:52 GMT</lastBuildDate>
+		<pubDate>Wed, 13 Mar 2024 16:30:57 GMT</pubDate>
+		<lastBuildDate>Wed, 13 Mar 2024 16:30:57 GMT</lastBuildDate>
 		<item>
 			<title>Hello World! 👋🌎</title>
 			<link>/posts/2024/03/helloworld</link>
 			<description>&lt;p&gt;Hello, world! This is my first blog post, and I am very excited to share it with you. 😊&lt;/p&gt;</description>
 			<guid isPermaLink="false">/posts/2024/03/helloworld</guid>
-			<pubDate>Tue, 12 Mar 2024 16:25:52 GMT</pubDate>
+			<pubDate>Tue, 12 Mar 2024 17:44:17 GMT</pubDate>
 			<content:encoded>&lt;p&gt;Hello, world! This is my first blog post, and I am very excited to share it with you. 😊&lt;/p&gt;
 &lt;p&gt;My name is Stefano Locatelli, and I am a Microsoft employee and a Microsoft 365 Development and Azure enthusiast. In this blog, I will write about my personal experiences, learnings, and insights on these topics, as well as some of the projects and solutions that I have worked on or created.&lt;/p&gt;
 &lt;p&gt;I hope you will find this blog interesting and useful, and I look forward to hearing your feedback and comments. You can contact me via &lt;a href="https://www.linkedin.com/in/locatellistefano"&gt;Linkedin&lt;/a&gt; or by e-mail at &lt;code&gt;locatellist AT gmail DOT com&lt;/code&gt;.&lt;/p&gt;

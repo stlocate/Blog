@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StatiqWebApp.Blog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ba7478e6a25122b970064854c4f91e5945e34b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8c0d75d75c3cb4dc6794a84a99825352e965adb")]
 [assembly: System.Reflection.AssemblyProductAttribute("StatiqWebApp.Blog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StatiqWebApp.Blog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

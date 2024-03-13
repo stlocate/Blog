@@ -1,5 +1,9 @@
 Title: "Hello World! 👋🌎"
 IsPost: true
+CommentEngine: Giscus
+Tags:
+  - Blog
+  - Microsoft
 --
 Hello, world! This is my first blog post, and I am very excited to share it with you. 😊
 

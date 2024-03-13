@@ -1,3 +1,65 @@
+<div class="col-md-4 mt-4 mt-md-0 col-sm-height sidebar">
+  <div class="row gx-4 gx-lg-5 justify-content-center">
+    <ul class="list-inline display-6">
+      <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/locatellistefano" target="_blank"  >
+            <i class="fa-brands fa-linkedin" ></i>
+          </a>
+        </li>
+      <li class="list-inline-item">
+          <a href="https://github.com/stlocate" target="_blank">
+            <i class="fa-brands fa-github " ></i>
+          </a>
+        </li>
+          @{
+            IDocument rssFeed = Outputs["**/*.rss"].FirstOrDefault();
+            IDocument atomFeed = Outputs["**/*.atom"].FirstOrDefault();
+          }
+       
+            
+       
+      </ul>
+       <a href="@Context.GetLink(rssFeed)"><i class="fa fa-rss"></i> RSS Feed</a>
+    
+             <a href="@Context.GetLink(atomFeed)"><i class="fa fa-rss"></i> Atom Feed</a>
+  </div>
+  <p></p>
+     <div>
+        <h5>Who am I</h5>
+        <div>Hi, I am Stefano, a Microsoft employee! Welcome to my personal blog 👋
+            <div>
+                Here I share my thoughts and experiences on Microsoft 365 Development and Azure. 
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <div>
+        <h5>Disclaimer</h5>
+        <div>
+            The content of this blog is created by me as a hobby and reflects my personal opinions and views, not those of my employer or any other entity.
+            This blog is not affiliated with or endorsed by Microsoft in any way.</div>
+    </div>
+    <p></p>
+      @{
+        IDocument[] tags = Outputs.Get("tags/index.html")?.GetChildren().OrderByDescending(x => x.GetChildren().Count()).Take(10).ToArray() ?? Array.Empty<IDocument>();
+        if (tags.Length > 0)
+        {
+          <div>
+            <h5>Tags</h5>
+            @foreach (IDocument tag in Outputs.Get("tags/index.html").GetChildren().OrderByDescending(x => x.GetChildren().Count()).Take(10))
+            {
+              string postCount = tag.GetChildren().Count().ToString();
+              <a href="@Context.GetLink(tag)" class="badge text-bg-light"> @tag.GetTitle() (@postCount)</a>
+            }
+            <div class="mt-3">
+              <div class="float-sm-end">
+                <a class="btn btn-sm btn-primary" href='@Context.GetLink(Outputs.Get("tags/index.html"))' role="button">All Tags <i class="fas fa-angle-double-right"></i></a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        }
+      }
 
-<p>Hi, I am Stefano, a Microsoft employee!<br/> Welcome to my personal blog 👋</p><p>  Here I share my thoughts and experiences on Microsoft 365 Development and Azure.
-This blog is not affiliated with or endorsed by Microsoft in any way. The content of this blog is created by me as a hobby and reflects my personal opinions and views, not those of my employer or any other entity.</p>
+      
+    </div>

@@ -1,0 +1,7 @@
+.vscode/
+.vs/
+output/
+obj/
+cache/
+temp/
+bin/
