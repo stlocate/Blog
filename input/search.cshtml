@@ -1,16 +1,17 @@
+Title: Search
 HideFromSearchIndex: true
 Excluded: => !Context.GetBool(WebKeys.GenerateSearchIndex)
 ShowInNavbar: false
 ---
-<form>
+
   <div class="form-group">
-    <label for="search">Search Query</label>
-    <input class="form-control" type="search" aria-label="Search" id="search-query">
+    <label for="search">What are looking for?</label>
+    <br/><br/>
+    <input class="form-control" type="search" aria-label="Search" id="search-query" placeholder="Type something.." >
   </div>
-</form>
 
 <div id="search-results"></div>
-
+<p></p>
 @section Scripts
 {
   <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
@@ -46,6 +47,9 @@ ShowInNavbar: false
               list.appendChild(li);
             }
           }
+          var labelResult = document.createElement("p");
+          labelResult.append("Search results:");
+          var container = document.getElementById("search-results").appendChild(labelResult);
           document.getElementById("search-results").appendChild(list);
         });
       }

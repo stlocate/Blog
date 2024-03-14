@@ -1,5 +1,9 @@
 <div class="col-md-4 mt-4 mt-md-0 col-sm-height sidebar">
   <div class="row gx-4 gx-lg-5 justify-content-center">
+    @{
+            IDocument rssFeed = Outputs["**/*.rss"].FirstOrDefault();
+            IDocument atomFeed = Outputs["**/*.atom"].FirstOrDefault();
+          }
     <ul class="list-inline display-6">
       <li class="list-inline-item">
           <a href="https://www.linkedin.com/in/locatellistefano" target="_blank"  >
@@ -11,19 +15,19 @@
             <i class="fa-brands fa-github " ></i>
           </a>
         </li>
-          @{
-            IDocument rssFeed = Outputs["**/*.rss"].FirstOrDefault();
-            IDocument atomFeed = Outputs["**/*.atom"].FirstOrDefault();
-          }
-       
-            
-       
       </ul>
-       <a href="@Context.GetLink(rssFeed)"><i class="fa fa-rss"></i> RSS Feed</a>
+      <ul class="list-inline">
+      <li class="list-inline-item">
+                <a href="@Context.GetLink(rssFeed)"><i class="fa fa-rss"></i>&nbsp;RSS Feed</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="@Context.GetLink(atomFeed)"><i class="fa fa-rss"></i>&nbsp;Atom Feed</a>
+              </li>   
+      </ul>
+       @* <a href="@Context.GetLink(rssFeed)"><i class="fa fa-rss"></i> </a>
     
-             <a href="@Context.GetLink(atomFeed)"><i class="fa fa-rss"></i> Atom Feed</a>
+             <a href="@Context.GetLink(atomFeed)"><i class="fa fa-rss"></i> </a> *@
   </div>
-  <p></p>
      <div>
         <h5>Who am I</h5>
         <div>Hi, I am Stefano, a Microsoft employee! Welcome to my personal blog 👋

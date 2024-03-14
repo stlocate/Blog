@@ -3568,4 +3568,16 @@ header.masthead .image-attribution p { margin: 0; padding: 0; }
 
 .post-subtitle { font-family: var(--bs-font-sans-serif); font-size: 1.5rem; }
 
+.h1 { font-size: 3rem !important; }
+
+.site-heading h1, .site-heading .h1, .site-heading span { text-shadow: 5px 5px 10px black; }
+
 .sidebar { font-size: 1rem; }
+
+.svg-inline--fa.fa-stack-2x { height: 2em; width: 2.5em; }
+
+.svg-inline--fa.fa-stack-1x { height: 1em; width: 1.25em; }
+
+input[type=search] { -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 1px solid #2d9fd9; color: #a0d18c; width: 250px; height: 30px; padding-left: 10px; }
+
+input[type=search]:focus { outline: none; border: 1px solid #a0d18c; }
