@@ -5,4 +5,3 @@
   quicklink.listen();
 
 })();
-
