@@ -8,7 +8,7 @@ PageTitle: |
     string title = GetString("Title");
     return string.IsNullOrWhiteSpace(siteTitle) ? title : (string.IsNullOrWhiteSpace(title) ? siteTitle : $"{siteTitle} - {title}");
   }
-Copyright: => $"Copyright © {DateTime.Now.Year}"
+Copyright: => $""
 PostSources: posts/**/*
 IsPost: => Context.Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(Document)
 PageSources: pages/**/*
@@ -16,7 +16,7 @@ IsPage: => Context.Outputs.FilterSources(Context.GetString("PageSources")).Conta
 Layout: /_layout.cshtml
 
 # Hosting settings
-Host: calm-river-08a864b03.5.azurestaticapps.net 
+Host: blog.stlocate.net
 LinksUseHttps: true
 
 GenerateSearchIndex: true

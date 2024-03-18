@@ -2,16 +2,15 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
 		<title>Stefano Locatelli's Blog</title>
-		<link>https://calm-river-08a864b03.5.azurestaticapps.net/</link>
+		<link>https://blog.stlocate.net/</link>
 		<description>Thoughts and experiences on Azure, AI and Microsoft 365 Development</description>
-		<copyright>Copyright © 2024</copyright>
-		<pubDate>Fri, 15 Mar 2024 16:02:52 GMT</pubDate>
-		<lastBuildDate>Fri, 15 Mar 2024 16:02:52 GMT</lastBuildDate>
+		<pubDate>Mon, 18 Mar 2024 10:27:32 GMT</pubDate>
+		<lastBuildDate>Mon, 18 Mar 2024 10:27:32 GMT</lastBuildDate>
 		<item>
 			<title>Hello World! 👋🌎</title>
-			<link>https://calm-river-08a864b03.5.azurestaticapps.net/posts/2024/03/helloworld</link>
+			<link>https://blog.stlocate.net/posts/2024/03/helloworld</link>
 			<description>&lt;p&gt;Hello, world! This is my first blog post, and I am very excited to share it with you. 😊&lt;/p&gt;</description>
-			<guid>https://calm-river-08a864b03.5.azurestaticapps.net/posts/2024/03/helloworld</guid>
+			<guid>https://blog.stlocate.net/posts/2024/03/helloworld</guid>
 			<pubDate>Tue, 12 Mar 2024 17:44:17 GMT</pubDate>
 			<content:encoded>&lt;p&gt;Hello, world! This is my first blog post, and I am very excited to share it with you. 😊&lt;/p&gt;
 &lt;p&gt;My name is Stefano Locatelli, and I am a Microsoft employee and a Microsoft 365 Development and Azure enthusiast. In this blog, I will write about my personal experiences, learnings, and insights on these topics, as well as some of the projects and solutions that I have worked on or created.&lt;/p&gt;

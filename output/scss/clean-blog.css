@@ -3574,6 +3574,8 @@ header.masthead .image-attribution p { margin: 0; padding: 0; }
 
 .sidebar { font-size: 1rem; }
 
+.sidebar ul a { font-weight: bolder; }
+
 .svg-inline--fa.fa-stack-2x { height: 2em; width: 2.5em; }
 
 .svg-inline--fa.fa-stack-1x { height: 1em; width: 1.25em; }

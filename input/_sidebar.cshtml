@@ -3,25 +3,34 @@
     @{
             IDocument rssFeed = Outputs["**/*.rss"].FirstOrDefault();
             IDocument atomFeed = Outputs["**/*.atom"].FirstOrDefault();
+          
           }
     <ul class="list-inline display-6">
       <li class="list-inline-item">
-          <a href="https://www.linkedin.com/in/locatellistefano" target="_blank"  >
+          <a title="LinkedIn profile" href="https://www.linkedin.com/in/locatellistefano" target="_blank"  >
             <i class="fa-brands fa-linkedin" ></i>
           </a>
         </li>
       <li class="list-inline-item">
-          <a href="https://github.com/stlocate" target="_blank">
+          <a title="GitHub profile" href="https://github.com/stlocate" target="_blank">
             <i class="fa-brands fa-github " ></i>
           </a>
         </li>
       </ul>
       <ul class="list-inline">
       <li class="list-inline-item">
-                <a href="@Context.GetLink(rssFeed)"><i class="fa fa-rss"></i>&nbsp;RSS Feed</a>
+                <a href="@Context.GetLink(rssFeed)" target="_blank"><i class="fa fa-rss"></i>&nbsp;RSS Feed</a>
               </li>
               <li class="list-inline-item">
-                <a href="@Context.GetLink(atomFeed)"><i class="fa fa-rss"></i>&nbsp;Atom Feed</a>
+                <a href="@Context.GetLink(atomFeed)" target="_blank"><i class="fa fa-rss"></i>&nbsp;Atom Feed</a>
+              </li>   
+     
+
+              
+      </ul>
+      <ul>
+        <li class="list-inline-item">
+                <a href="https://www.credly.com/users/stefano-locatelli/badges" target="_blank">Credly profile</a>
               </li>   
       </ul>
        @* <a href="@Context.GetLink(rssFeed)"><i class="fa fa-rss"></i> </a>
@@ -34,7 +43,7 @@
            Here I share my thoughts and experiences on Microsoft 365 Development and Azure. 
          
             <p align="center"><a href="/about" title="More about me">
-<img width="100%" src="/images/Certifications.png" alt="Stefano's technical certifications list">
+<img width="100%" src="/images/Cert_small.png" alt="Stefano's technical certifications list">
 </a></p>
         </div>
     </div>

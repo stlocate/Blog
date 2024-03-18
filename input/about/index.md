@@ -8,6 +8,8 @@ IsPage: true
 <p>I work as a Senior Consultant in the Industry Solution Delivery, where I help shape the future of Microsoft 365 Development and Azure. I have been working with Microsoft technologies for over 14 years and I have more than 10 Microsoft Technical Certifications. 
 I love learning new things and sharing my knowledge with the community</p>
 <p align="center">
+<a target="_blank" href="https://www.credly.com/users/stefano-locatelli/badges">View Credly profile</a><p>
+<p align="center">
 <img src="/images/Certifications.png" alt="Stefano's technical certifications list"></p>
 <br/>
 <h2>What is this blog about?</h2>
